@@ -1,12 +1,69 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-
-  <style>
-    body {
-  background-color: #DBF9FC;
-  }
+  <body>
+  <header>
+    <div class="image-container"> 
+    <img src="C:\Users\Assia\Documents\Emergent Works\PassionProject/Language ABC New Logo.png" alt="logo" class="logo" width="400" height="300"></div>
+    </header>
+      <nav class="navigation">
   
+         <strong>
+         <a class="navlink" href="home.html">Home</a>
+         <a class="navlink" href="C:\Users\Assia\Documents\Emergent Works\PassionProject\About US.html">About Us</a>
+         <a class="navlink" href="C:\Users\Assia\Documents\Emergent Works\PassionProject\Our Services.html">Our Services</a>
+         <a class="navlink" href="C:\Users\Assia\Documents\Emergent Works\PassionProject\Contact US.html">Contact Us</a></nav></strong>
+    
+        </nav>  
+    </div>
+  </header>
+  <div class="container">
+    <div id="card" draggable="true">
+      <h3>items</h3>
+  </div>
+  <div id="drop-zone" />
+
+  </div>
+  
+  <script>
+    function pricingPopup() {
+      var popup = document.getElementById("morning");
+      popup.style.display="block";
+    }
+  </script>
+  <style>
+
+  
+
+body {
+  margin: 0;
+  background: #FFFFFF;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+ header {
+  background: #55d6aa;
+ } 
+.logo {
+  Float: Left;
+}
+
+  nav {
+    float: center;
+    color:blueviolet;
+    text-align:center;
+    padding: 25px 25px;
+    font-size: 30px;
+    width: 100;
+    overflow: auto;
+  }
+
+  .navlink {
+    margin: 30px;
+  }
   h1   {color: Purple;
   font-family: cursive;
   font-size: 250%;
@@ -36,9 +93,13 @@
 
   </style>
   </head>
-  <h1 style="color:purple;"> LANGUAGE ABC:TRANSLATION SERVICES YOU CAN TRUST.</h1>
+
+
+  
+  <h1 style="color:purple;"> TRANSLATION SERVICES YOU CAN TRUST.</h1>
    
-<body>
+
+  
 
 <br>
 <h2>English & Spanish Certified Translation Services
@@ -77,8 +138,13 @@
 
             <br>
 
-  
+  <button onclick="pricingPopup()">
+    <div> Cost of Translation </div>
+  </button>
+<div id="morning" style="display:none;"> 1-10 pages $25 per page </div>
   <table border="1" width="500" height="200">
+
+
 
     <tr>
       <th>Cost of Translation</th>
@@ -116,16 +182,6 @@ th, td {
   100% Satisfaction Guarantee.</h3> </p>
 <h3> Learn more about our services: <a href="https://translation1231.odoo.com/">Here</a>
 </h3>
-<nav>
-<ul>
- <li><strong>Home</strong></li>
- <li><a href="home.html">About Us</a></li>
- <li><a href="about.html">Our Clients</a></li>
- <li><a href="services.html">Our Services</a></li>
- <li><a href="contact.html">Contact Us</a></li>
-</ul>
-</nav>
-
 
 
 
