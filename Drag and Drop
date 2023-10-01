@@ -25,7 +25,6 @@
 
 
 
-java pattern
 const card = document.getElementById('card')
 const dropZone = document.getElementById('drop-zone');
 card.addEventListener('dragstart', function(event) {
